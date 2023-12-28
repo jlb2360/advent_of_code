@@ -4,4 +4,4 @@ This was my very first attempt at solving advent of code. I was learning Go at t
 
 You can actually see me get better at organizing and solving problems as the days went on; particularly, in not having to rewrite things for part2 of the questions.
 
-I tried my best to build my own data structures, but as the I got further into it I couldn't spare the time.
+I tried my best to build my own data structures, but as I got further into it I couldn't spare the time.
