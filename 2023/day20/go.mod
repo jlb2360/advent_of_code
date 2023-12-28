@@ -1,4 +1,4 @@
-module day12
+module day20
 
 go 1.21.4
 

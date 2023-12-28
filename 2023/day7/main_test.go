@@ -9,15 +9,13 @@ import (
 	"os"
 	"strconv"
 	"strings"
+	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
-func main() {
-	part1()
-	part2()
-}
-
-func part1() {
-	f, err := os.Open("input.txt")
+func TestMainPart1(t *testing.T) {
+	f, err := os.Open("inputTest.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -27,26 +25,34 @@ func part1() {
 	scanner := bufio.NewScanner(f)
 
 	queue := q.PriorityQueue{}
+	m := 0
 	for scanner.Scan() {
+		if m == 5 {
+			break
+		}
 		line := scanner.Text()
 		ls := strings.Split(line, " ")
+		fmt.Printf("ls: %v\n", ls)
 		bid, _ := strconv.Atoi(ls[1])
 		queue.Enqueue(ls[0], bid)
+		m++
 	}
 
 	sum := 0
 	i := 1
 	for queue.Length > 0 {
-		_, bid, _ := queue.Dequeue()
+		hand, bid, val := queue.Dequeue()
+		fmt.Printf("hand: %v, bid: %v val: %v\n", hand, bid, val)
 		sum += bid * i
 		i++
 	}
 
-	fmt.Printf("Part1: %v\n", sum)
+	fmt.Printf("sum: %v\n", sum)
+	assert.Equal(t, 6440, sum)
 }
 
-func part2() {
-	f, err := os.Open("input.txt")
+func TestMainPart2(t *testing.T) {
+	f, err := os.Open("inputTest.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -59,6 +65,7 @@ func part2() {
 	for scanner.Scan() {
 		line := scanner.Text()
 		ls := strings.Split(line, " ")
+		fmt.Printf("ls: %v\n", ls)
 		bid, _ := strconv.Atoi(ls[1])
 		queue.Enqueue(ls[0], bid)
 	}
@@ -66,10 +73,11 @@ func part2() {
 	sum := 0
 	i := 1
 	for queue.Length > 0 {
-		_, bid, _ := queue.Dequeue()
+		hand, bid, val := queue.Dequeue()
+		fmt.Printf("hand: %v, bid: %v val: %v\n", hand, bid, val)
 		sum += bid * i
 		i++
 	}
 
-	fmt.Printf("Part2: %v\n", sum)
+	fmt.Printf("sum: %v\n", sum)
 }
