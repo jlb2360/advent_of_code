@@ -1,0 +1,1 @@
+. "/home/jlb1694/dev/advent_of_code/2024/build/Release/generators/conanbuildenv-release-armv8.sh"
