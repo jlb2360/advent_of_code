@@ -1,0 +1,2 @@
+/usr/bin/ar qc libadvent_lib.a CMakeFiles/advent_lib.dir/day1.cpp.o CMakeFiles/advent_lib.dir/day2.cpp.o CMakeFiles/advent_lib.dir/day3.cpp.o CMakeFiles/advent_lib.dir/day4.cpp.o CMakeFiles/advent_lib.dir/day5.cpp.o CMakeFiles/advent_lib.dir/day6.cpp.o
+/usr/bin/ranlib libadvent_lib.a

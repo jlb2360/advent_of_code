@@ -130,6 +130,234 @@ hello/fast:
 	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f days/CMakeFiles/hello.dir/build.make days/CMakeFiles/hello.dir/build
 .PHONY : hello/fast
 
+# Convenience name for target.
+days/CMakeFiles/day1.dir/rule:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 days/CMakeFiles/day1.dir/rule
+.PHONY : days/CMakeFiles/day1.dir/rule
+
+# Convenience name for target.
+day1: days/CMakeFiles/day1.dir/rule
+.PHONY : day1
+
+# fast build rule for target.
+day1/fast:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f days/CMakeFiles/day1.dir/build.make days/CMakeFiles/day1.dir/build
+.PHONY : day1/fast
+
+# Convenience name for target.
+days/CMakeFiles/day2.dir/rule:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 days/CMakeFiles/day2.dir/rule
+.PHONY : days/CMakeFiles/day2.dir/rule
+
+# Convenience name for target.
+day2: days/CMakeFiles/day2.dir/rule
+.PHONY : day2
+
+# fast build rule for target.
+day2/fast:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f days/CMakeFiles/day2.dir/build.make days/CMakeFiles/day2.dir/build
+.PHONY : day2/fast
+
+# Convenience name for target.
+days/CMakeFiles/day3.dir/rule:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 days/CMakeFiles/day3.dir/rule
+.PHONY : days/CMakeFiles/day3.dir/rule
+
+# Convenience name for target.
+day3: days/CMakeFiles/day3.dir/rule
+.PHONY : day3
+
+# fast build rule for target.
+day3/fast:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f days/CMakeFiles/day3.dir/build.make days/CMakeFiles/day3.dir/build
+.PHONY : day3/fast
+
+# Convenience name for target.
+days/CMakeFiles/day4.dir/rule:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 days/CMakeFiles/day4.dir/rule
+.PHONY : days/CMakeFiles/day4.dir/rule
+
+# Convenience name for target.
+day4: days/CMakeFiles/day4.dir/rule
+.PHONY : day4
+
+# fast build rule for target.
+day4/fast:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f days/CMakeFiles/day4.dir/build.make days/CMakeFiles/day4.dir/build
+.PHONY : day4/fast
+
+# Convenience name for target.
+days/CMakeFiles/day5.dir/rule:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 days/CMakeFiles/day5.dir/rule
+.PHONY : days/CMakeFiles/day5.dir/rule
+
+# Convenience name for target.
+day5: days/CMakeFiles/day5.dir/rule
+.PHONY : day5
+
+# fast build rule for target.
+day5/fast:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f days/CMakeFiles/day5.dir/build.make days/CMakeFiles/day5.dir/build
+.PHONY : day5/fast
+
+# Convenience name for target.
+days/CMakeFiles/day6.dir/rule:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 days/CMakeFiles/day6.dir/rule
+.PHONY : days/CMakeFiles/day6.dir/rule
+
+# Convenience name for target.
+day6: days/CMakeFiles/day6.dir/rule
+.PHONY : day6
+
+# fast build rule for target.
+day6/fast:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f days/CMakeFiles/day6.dir/build.make days/CMakeFiles/day6.dir/build
+.PHONY : day6/fast
+
+day1_runner.o: day1_runner.cpp.o
+.PHONY : day1_runner.o
+
+# target to build an object file
+day1_runner.cpp.o:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f days/CMakeFiles/day1.dir/build.make days/CMakeFiles/day1.dir/day1_runner.cpp.o
+.PHONY : day1_runner.cpp.o
+
+day1_runner.i: day1_runner.cpp.i
+.PHONY : day1_runner.i
+
+# target to preprocess a source file
+day1_runner.cpp.i:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f days/CMakeFiles/day1.dir/build.make days/CMakeFiles/day1.dir/day1_runner.cpp.i
+.PHONY : day1_runner.cpp.i
+
+day1_runner.s: day1_runner.cpp.s
+.PHONY : day1_runner.s
+
+# target to generate assembly for a file
+day1_runner.cpp.s:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f days/CMakeFiles/day1.dir/build.make days/CMakeFiles/day1.dir/day1_runner.cpp.s
+.PHONY : day1_runner.cpp.s
+
+day2_runner.o: day2_runner.cpp.o
+.PHONY : day2_runner.o
+
+# target to build an object file
+day2_runner.cpp.o:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f days/CMakeFiles/day2.dir/build.make days/CMakeFiles/day2.dir/day2_runner.cpp.o
+.PHONY : day2_runner.cpp.o
+
+day2_runner.i: day2_runner.cpp.i
+.PHONY : day2_runner.i
+
+# target to preprocess a source file
+day2_runner.cpp.i:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f days/CMakeFiles/day2.dir/build.make days/CMakeFiles/day2.dir/day2_runner.cpp.i
+.PHONY : day2_runner.cpp.i
+
+day2_runner.s: day2_runner.cpp.s
+.PHONY : day2_runner.s
+
+# target to generate assembly for a file
+day2_runner.cpp.s:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f days/CMakeFiles/day2.dir/build.make days/CMakeFiles/day2.dir/day2_runner.cpp.s
+.PHONY : day2_runner.cpp.s
+
+day3_runner.o: day3_runner.cpp.o
+.PHONY : day3_runner.o
+
+# target to build an object file
+day3_runner.cpp.o:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f days/CMakeFiles/day3.dir/build.make days/CMakeFiles/day3.dir/day3_runner.cpp.o
+.PHONY : day3_runner.cpp.o
+
+day3_runner.i: day3_runner.cpp.i
+.PHONY : day3_runner.i
+
+# target to preprocess a source file
+day3_runner.cpp.i:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f days/CMakeFiles/day3.dir/build.make days/CMakeFiles/day3.dir/day3_runner.cpp.i
+.PHONY : day3_runner.cpp.i
+
+day3_runner.s: day3_runner.cpp.s
+.PHONY : day3_runner.s
+
+# target to generate assembly for a file
+day3_runner.cpp.s:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f days/CMakeFiles/day3.dir/build.make days/CMakeFiles/day3.dir/day3_runner.cpp.s
+.PHONY : day3_runner.cpp.s
+
+day4_runner.o: day4_runner.cpp.o
+.PHONY : day4_runner.o
+
+# target to build an object file
+day4_runner.cpp.o:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f days/CMakeFiles/day4.dir/build.make days/CMakeFiles/day4.dir/day4_runner.cpp.o
+.PHONY : day4_runner.cpp.o
+
+day4_runner.i: day4_runner.cpp.i
+.PHONY : day4_runner.i
+
+# target to preprocess a source file
+day4_runner.cpp.i:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f days/CMakeFiles/day4.dir/build.make days/CMakeFiles/day4.dir/day4_runner.cpp.i
+.PHONY : day4_runner.cpp.i
+
+day4_runner.s: day4_runner.cpp.s
+.PHONY : day4_runner.s
+
+# target to generate assembly for a file
+day4_runner.cpp.s:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f days/CMakeFiles/day4.dir/build.make days/CMakeFiles/day4.dir/day4_runner.cpp.s
+.PHONY : day4_runner.cpp.s
+
+day5_runner.o: day5_runner.cpp.o
+.PHONY : day5_runner.o
+
+# target to build an object file
+day5_runner.cpp.o:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f days/CMakeFiles/day5.dir/build.make days/CMakeFiles/day5.dir/day5_runner.cpp.o
+.PHONY : day5_runner.cpp.o
+
+day5_runner.i: day5_runner.cpp.i
+.PHONY : day5_runner.i
+
+# target to preprocess a source file
+day5_runner.cpp.i:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f days/CMakeFiles/day5.dir/build.make days/CMakeFiles/day5.dir/day5_runner.cpp.i
+.PHONY : day5_runner.cpp.i
+
+day5_runner.s: day5_runner.cpp.s
+.PHONY : day5_runner.s
+
+# target to generate assembly for a file
+day5_runner.cpp.s:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f days/CMakeFiles/day5.dir/build.make days/CMakeFiles/day5.dir/day5_runner.cpp.s
+.PHONY : day5_runner.cpp.s
+
+day6_runner.o: day6_runner.cpp.o
+.PHONY : day6_runner.o
+
+# target to build an object file
+day6_runner.cpp.o:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f days/CMakeFiles/day6.dir/build.make days/CMakeFiles/day6.dir/day6_runner.cpp.o
+.PHONY : day6_runner.cpp.o
+
+day6_runner.i: day6_runner.cpp.i
+.PHONY : day6_runner.i
+
+# target to preprocess a source file
+day6_runner.cpp.i:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f days/CMakeFiles/day6.dir/build.make days/CMakeFiles/day6.dir/day6_runner.cpp.i
+.PHONY : day6_runner.cpp.i
+
+day6_runner.s: day6_runner.cpp.s
+.PHONY : day6_runner.s
+
+# target to generate assembly for a file
+day6_runner.cpp.s:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f days/CMakeFiles/day6.dir/build.make days/CMakeFiles/day6.dir/day6_runner.cpp.s
+.PHONY : day6_runner.cpp.s
+
 hello.o: hello.cpp.o
 .PHONY : hello.o
 
@@ -162,7 +390,31 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... day1"
+	@echo "... day2"
+	@echo "... day3"
+	@echo "... day4"
+	@echo "... day5"
+	@echo "... day6"
 	@echo "... hello"
+	@echo "... day1_runner.o"
+	@echo "... day1_runner.i"
+	@echo "... day1_runner.s"
+	@echo "... day2_runner.o"
+	@echo "... day2_runner.i"
+	@echo "... day2_runner.s"
+	@echo "... day3_runner.o"
+	@echo "... day3_runner.i"
+	@echo "... day3_runner.s"
+	@echo "... day4_runner.o"
+	@echo "... day4_runner.i"
+	@echo "... day4_runner.s"
+	@echo "... day5_runner.o"
+	@echo "... day5_runner.i"
+	@echo "... day5_runner.s"
+	@echo "... day6_runner.o"
+	@echo "... day6_runner.i"
+	@echo "... day6_runner.s"
 	@echo "... hello.o"
 	@echo "... hello.i"
 	@echo "... hello.s"

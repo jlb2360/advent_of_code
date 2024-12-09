@@ -130,6 +130,234 @@ test_hello/fast:
 	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_hello.dir/build.make tests/CMakeFiles/test_hello.dir/build
 .PHONY : test_hello/fast
 
+# Convenience name for target.
+tests/CMakeFiles/test_day1.dir/rule:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_day1.dir/rule
+.PHONY : tests/CMakeFiles/test_day1.dir/rule
+
+# Convenience name for target.
+test_day1: tests/CMakeFiles/test_day1.dir/rule
+.PHONY : test_day1
+
+# fast build rule for target.
+test_day1/fast:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_day1.dir/build.make tests/CMakeFiles/test_day1.dir/build
+.PHONY : test_day1/fast
+
+# Convenience name for target.
+tests/CMakeFiles/test_day2.dir/rule:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_day2.dir/rule
+.PHONY : tests/CMakeFiles/test_day2.dir/rule
+
+# Convenience name for target.
+test_day2: tests/CMakeFiles/test_day2.dir/rule
+.PHONY : test_day2
+
+# fast build rule for target.
+test_day2/fast:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_day2.dir/build.make tests/CMakeFiles/test_day2.dir/build
+.PHONY : test_day2/fast
+
+# Convenience name for target.
+tests/CMakeFiles/test_day3.dir/rule:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_day3.dir/rule
+.PHONY : tests/CMakeFiles/test_day3.dir/rule
+
+# Convenience name for target.
+test_day3: tests/CMakeFiles/test_day3.dir/rule
+.PHONY : test_day3
+
+# fast build rule for target.
+test_day3/fast:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_day3.dir/build.make tests/CMakeFiles/test_day3.dir/build
+.PHONY : test_day3/fast
+
+# Convenience name for target.
+tests/CMakeFiles/test_day4.dir/rule:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_day4.dir/rule
+.PHONY : tests/CMakeFiles/test_day4.dir/rule
+
+# Convenience name for target.
+test_day4: tests/CMakeFiles/test_day4.dir/rule
+.PHONY : test_day4
+
+# fast build rule for target.
+test_day4/fast:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_day4.dir/build.make tests/CMakeFiles/test_day4.dir/build
+.PHONY : test_day4/fast
+
+# Convenience name for target.
+tests/CMakeFiles/test_day5.dir/rule:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_day5.dir/rule
+.PHONY : tests/CMakeFiles/test_day5.dir/rule
+
+# Convenience name for target.
+test_day5: tests/CMakeFiles/test_day5.dir/rule
+.PHONY : test_day5
+
+# fast build rule for target.
+test_day5/fast:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_day5.dir/build.make tests/CMakeFiles/test_day5.dir/build
+.PHONY : test_day5/fast
+
+# Convenience name for target.
+tests/CMakeFiles/test_day6.dir/rule:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_day6.dir/rule
+.PHONY : tests/CMakeFiles/test_day6.dir/rule
+
+# Convenience name for target.
+test_day6: tests/CMakeFiles/test_day6.dir/rule
+.PHONY : test_day6
+
+# fast build rule for target.
+test_day6/fast:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_day6.dir/build.make tests/CMakeFiles/test_day6.dir/build
+.PHONY : test_day6/fast
+
+testDay1.o: testDay1.cpp.o
+.PHONY : testDay1.o
+
+# target to build an object file
+testDay1.cpp.o:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_day1.dir/build.make tests/CMakeFiles/test_day1.dir/testDay1.cpp.o
+.PHONY : testDay1.cpp.o
+
+testDay1.i: testDay1.cpp.i
+.PHONY : testDay1.i
+
+# target to preprocess a source file
+testDay1.cpp.i:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_day1.dir/build.make tests/CMakeFiles/test_day1.dir/testDay1.cpp.i
+.PHONY : testDay1.cpp.i
+
+testDay1.s: testDay1.cpp.s
+.PHONY : testDay1.s
+
+# target to generate assembly for a file
+testDay1.cpp.s:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_day1.dir/build.make tests/CMakeFiles/test_day1.dir/testDay1.cpp.s
+.PHONY : testDay1.cpp.s
+
+testDay2.o: testDay2.cpp.o
+.PHONY : testDay2.o
+
+# target to build an object file
+testDay2.cpp.o:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_day2.dir/build.make tests/CMakeFiles/test_day2.dir/testDay2.cpp.o
+.PHONY : testDay2.cpp.o
+
+testDay2.i: testDay2.cpp.i
+.PHONY : testDay2.i
+
+# target to preprocess a source file
+testDay2.cpp.i:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_day2.dir/build.make tests/CMakeFiles/test_day2.dir/testDay2.cpp.i
+.PHONY : testDay2.cpp.i
+
+testDay2.s: testDay2.cpp.s
+.PHONY : testDay2.s
+
+# target to generate assembly for a file
+testDay2.cpp.s:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_day2.dir/build.make tests/CMakeFiles/test_day2.dir/testDay2.cpp.s
+.PHONY : testDay2.cpp.s
+
+testDay3.o: testDay3.cpp.o
+.PHONY : testDay3.o
+
+# target to build an object file
+testDay3.cpp.o:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_day3.dir/build.make tests/CMakeFiles/test_day3.dir/testDay3.cpp.o
+.PHONY : testDay3.cpp.o
+
+testDay3.i: testDay3.cpp.i
+.PHONY : testDay3.i
+
+# target to preprocess a source file
+testDay3.cpp.i:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_day3.dir/build.make tests/CMakeFiles/test_day3.dir/testDay3.cpp.i
+.PHONY : testDay3.cpp.i
+
+testDay3.s: testDay3.cpp.s
+.PHONY : testDay3.s
+
+# target to generate assembly for a file
+testDay3.cpp.s:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_day3.dir/build.make tests/CMakeFiles/test_day3.dir/testDay3.cpp.s
+.PHONY : testDay3.cpp.s
+
+testDay4.o: testDay4.cpp.o
+.PHONY : testDay4.o
+
+# target to build an object file
+testDay4.cpp.o:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_day4.dir/build.make tests/CMakeFiles/test_day4.dir/testDay4.cpp.o
+.PHONY : testDay4.cpp.o
+
+testDay4.i: testDay4.cpp.i
+.PHONY : testDay4.i
+
+# target to preprocess a source file
+testDay4.cpp.i:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_day4.dir/build.make tests/CMakeFiles/test_day4.dir/testDay4.cpp.i
+.PHONY : testDay4.cpp.i
+
+testDay4.s: testDay4.cpp.s
+.PHONY : testDay4.s
+
+# target to generate assembly for a file
+testDay4.cpp.s:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_day4.dir/build.make tests/CMakeFiles/test_day4.dir/testDay4.cpp.s
+.PHONY : testDay4.cpp.s
+
+testDay5.o: testDay5.cpp.o
+.PHONY : testDay5.o
+
+# target to build an object file
+testDay5.cpp.o:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_day5.dir/build.make tests/CMakeFiles/test_day5.dir/testDay5.cpp.o
+.PHONY : testDay5.cpp.o
+
+testDay5.i: testDay5.cpp.i
+.PHONY : testDay5.i
+
+# target to preprocess a source file
+testDay5.cpp.i:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_day5.dir/build.make tests/CMakeFiles/test_day5.dir/testDay5.cpp.i
+.PHONY : testDay5.cpp.i
+
+testDay5.s: testDay5.cpp.s
+.PHONY : testDay5.s
+
+# target to generate assembly for a file
+testDay5.cpp.s:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_day5.dir/build.make tests/CMakeFiles/test_day5.dir/testDay5.cpp.s
+.PHONY : testDay5.cpp.s
+
+testDay6.o: testDay6.cpp.o
+.PHONY : testDay6.o
+
+# target to build an object file
+testDay6.cpp.o:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_day6.dir/build.make tests/CMakeFiles/test_day6.dir/testDay6.cpp.o
+.PHONY : testDay6.cpp.o
+
+testDay6.i: testDay6.cpp.i
+.PHONY : testDay6.i
+
+# target to preprocess a source file
+testDay6.cpp.i:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_day6.dir/build.make tests/CMakeFiles/test_day6.dir/testDay6.cpp.i
+.PHONY : testDay6.cpp.i
+
+testDay6.s: testDay6.cpp.s
+.PHONY : testDay6.s
+
+# target to generate assembly for a file
+testDay6.cpp.s:
+	cd /home/jlb1694/dev/advent_of_code/2024/build/Release && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_day6.dir/build.make tests/CMakeFiles/test_day6.dir/testDay6.cpp.s
+.PHONY : testDay6.cpp.s
+
 test_helloworld.o: test_helloworld.cpp.o
 .PHONY : test_helloworld.o
 
@@ -162,7 +390,31 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... test_day1"
+	@echo "... test_day2"
+	@echo "... test_day3"
+	@echo "... test_day4"
+	@echo "... test_day5"
+	@echo "... test_day6"
 	@echo "... test_hello"
+	@echo "... testDay1.o"
+	@echo "... testDay1.i"
+	@echo "... testDay1.s"
+	@echo "... testDay2.o"
+	@echo "... testDay2.i"
+	@echo "... testDay2.s"
+	@echo "... testDay3.o"
+	@echo "... testDay3.i"
+	@echo "... testDay3.s"
+	@echo "... testDay4.o"
+	@echo "... testDay4.i"
+	@echo "... testDay4.s"
+	@echo "... testDay5.o"
+	@echo "... testDay5.i"
+	@echo "... testDay5.s"
+	@echo "... testDay6.o"
+	@echo "... testDay6.i"
+	@echo "... testDay6.s"
 	@echo "... test_helloworld.o"
 	@echo "... test_helloworld.i"
 	@echo "... test_helloworld.s"

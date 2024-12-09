@@ -53,6 +53,19 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "lib/CMakeFiles/advent_lib.dir/DependInfo.cmake"
   "days/CMakeFiles/hello.dir/DependInfo.cmake"
+  "days/CMakeFiles/day1.dir/DependInfo.cmake"
+  "days/CMakeFiles/day2.dir/DependInfo.cmake"
+  "days/CMakeFiles/day3.dir/DependInfo.cmake"
+  "days/CMakeFiles/day4.dir/DependInfo.cmake"
+  "days/CMakeFiles/day5.dir/DependInfo.cmake"
+  "days/CMakeFiles/day6.dir/DependInfo.cmake"
   "tests/CMakeFiles/test_hello.dir/DependInfo.cmake"
+  "tests/CMakeFiles/test_day1.dir/DependInfo.cmake"
+  "tests/CMakeFiles/test_day2.dir/DependInfo.cmake"
+  "tests/CMakeFiles/test_day3.dir/DependInfo.cmake"
+  "tests/CMakeFiles/test_day4.dir/DependInfo.cmake"
+  "tests/CMakeFiles/test_day5.dir/DependInfo.cmake"
+  "tests/CMakeFiles/test_day6.dir/DependInfo.cmake"
   )

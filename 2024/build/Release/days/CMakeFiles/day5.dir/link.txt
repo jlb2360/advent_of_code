@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/day5.dir/day5_runner.cpp.o -o day5  ../lib/libadvent_lib.a 

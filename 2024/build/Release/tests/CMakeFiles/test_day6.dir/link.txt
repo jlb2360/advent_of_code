@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/test_day6.dir/testDay6.cpp.o -o test_day6   -L/home/jlb1694/.conan2/p/b/gtest2dac020849679/p/lib  -Wl,-rpath,/home/jlb1694/.conan2/p/b/gtest2dac020849679/p/lib ../lib/libadvent_lib.a /home/jlb1694/.conan2/p/b/gtest2dac020849679/p/lib/libgtest_main.a /home/jlb1694/.conan2/p/b/gtest2dac020849679/p/lib/libgtest.a -lm -lpthread 

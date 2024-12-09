@@ -1,0 +1,248 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "lib",
+					"jsonFile" : "directory-lib-Release-c12f15c6f888b43a891c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "days",
+					"jsonFile" : "directory-days-Release-d6a39f12a8bac3b2f740.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "days",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-Release-b01f6abb0ab61427ef3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "Advent2024",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "PackageTest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "advent_lib::@306ed2d68c6501e8728f",
+					"jsonFile" : "target-advent_lib-Release-05b5db520e781e6d7e4b.json",
+					"name" : "advent_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "day1::@ec6b8fdada724c1e94aa",
+					"jsonFile" : "target-day1-Release-c6c1e4fca64374c6a9d7.json",
+					"name" : "day1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "day2::@ec6b8fdada724c1e94aa",
+					"jsonFile" : "target-day2-Release-1ef649e3a11e3de26204.json",
+					"name" : "day2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "day3::@ec6b8fdada724c1e94aa",
+					"jsonFile" : "target-day3-Release-ae988faad181eba4a892.json",
+					"name" : "day3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "day4::@ec6b8fdada724c1e94aa",
+					"jsonFile" : "target-day4-Release-0356e636dd7350987c08.json",
+					"name" : "day4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "day5::@ec6b8fdada724c1e94aa",
+					"jsonFile" : "target-day5-Release-b855add068dc7306d5d2.json",
+					"name" : "day5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "day6::@ec6b8fdada724c1e94aa",
+					"jsonFile" : "target-day6-Release-bee499b2083578cbed82.json",
+					"name" : "day6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "hello::@ec6b8fdada724c1e94aa",
+					"jsonFile" : "target-hello-Release-46880d8f3ed4115a3bbd.json",
+					"name" : "hello",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test_day1::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_day1-Release-2f769835667c60f8c987.json",
+					"name" : "test_day1",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test_day2::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_day2-Release-ec4dda01e7559bd2541e.json",
+					"name" : "test_day2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test_day3::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_day3-Release-cac441efae7f5c65f141.json",
+					"name" : "test_day3",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test_day4::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_day4-Release-126da66a6d27068c3552.json",
+					"name" : "test_day4",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test_day5::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_day5-Release-670efd8b5c3e5ee5ce49.json",
+					"name" : "test_day5",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test_day6::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_day6-Release-048646ec70b9da133e4a.json",
+					"name" : "test_day6",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "test_hello::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_hello-Release-1b396d51fb717d76d0ba.json",
+					"name" : "test_hello",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jlb1694/dev/advent_of_code/2024/build/Release",
+		"source" : "/home/jlb1694/dev/advent_of_code/2024"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

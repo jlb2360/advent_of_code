@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/tests.dir/test_helloworld.cpp.o -o tests   -L/home/jlb1694/.conan2/p/b/catch151141c6cd903/p/lib  -Wl,-rpath,/home/jlb1694/.conan2/p/b/catch151141c6cd903/p/lib /home/jlb1694/.conan2/p/b/catch151141c6cd903/p/lib/libCatch2Main.a -lm /home/jlb1694/.conan2/p/b/catch151141c6cd903/p/lib/libCatch2.a 
